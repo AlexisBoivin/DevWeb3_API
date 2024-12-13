@@ -53,6 +53,12 @@ Run production build with a different env file.
 Procédure d’installation de l’API sur un poste local
 
 
+git clone https://github.com/AlexisBoivin/DevWeb3_API.git
+
+npm install
+
+
+
 
 
 Procédure de création de la base de données.
