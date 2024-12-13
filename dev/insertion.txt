@@ -1,0 +1,212 @@
+use pnj;
+
+// Insère les documents dans la collection "pnj"
+db.pnj.insertMany(
+  //Contenu de pnj.pnj.json
+  [{
+  "_id": "e9ba1fe7-6a29-4279-9fca-8fe1a173bc9c",
+  "nom": {
+    "prenom": "Marsha",
+    "nomfamille": "Sawayn"
+  },
+  "dateAjout": "2023-11-25",
+  "niveauDefi": 2,
+  "vivant": false,
+  "pointVie": 33,
+  "pouvoirs": [
+    {
+      "nompouvoir": "consectetur",
+      "cout": "action bonus",
+      "description": "ea in consequat qui proident fugiat ipsum nulla"
+    },
+    {
+      "nompouvoir": "minim",
+      "cout": "action",
+      "description": "et veniam velit occaecat et culpa nostrud veniam cupidatat laboris enim reprehenderit laborum ea culpa"
+    },
+    {
+      "nompouvoir": "deserunt dolor aliquip",
+      "cout": "10 minutes",
+      "description": "irure voluptate dolore qui enim ex qui ea est ad veniam reprehenderit est velit irure eiusmod ad magna laboris esse adipisicing do fugiat tempor consectetur consectetur culpa irure minim nulla enim sint ad aliquip excepteur pariatur"
+    }
+  ],
+  "resume": "Duis amet reprehenderit ut non nisi."
+},
+{
+  "_id": "6c11d5f9-d4e3-4cb6-b960-40dc068a5a62",
+  "nom": {
+    "prenom": "Fredrick",
+    "nomfamille": "Fadel"
+  },
+  "dateAjout": "2023-10-20",
+  "niveauDefi": 14,
+  "vivant": true,
+  "pointVie": 47,
+  "pouvoirs": [
+    {
+      "nompouvoir": "mollit ad",
+      "cout": "10 minutes",
+      "description": "adipisicing et ipsum occaecat deserunt quis culpa amet nisi aute culpa nulla laboris laborum mollit voluptate excepteur aliquip minim mollit ipsum aute exercitation incididunt esse amet amet consectetur commodo sunt amet ad dolor aliqua"
+    },
+    {
+      "nompouvoir": "reprehenderit ullamco cillum",
+      "cout": "10 minutes",
+      "description": "nostrud deserunt ex velit"
+    }
+  ],
+  "resume": "Pariatur elit culpa amet cupidatat ullamco. Exercitation occaecat enim laborum magna mollit ipsum anim amet sint ullamco dolore tempor mollit dolore."
+},
+{
+  "_id": "13aaf415-2088-4757-8f54-97171cf26564",
+  "nom": {
+    "prenom": "Gwendolyn",
+    "nomfamille": "Ziemann"
+  },
+  "dateAjout": "2023-12-16",
+  "niveauDefi": 3,
+  "vivant": true,
+  "pointVie": 73,
+  "pouvoirs": [
+    {
+      "nompouvoir": "elit eiusmod",
+      "cout": "10 minutes",
+      "description": "occaecat esse adipisicing officia qui excepteur"
+    },
+    {
+      "nompouvoir": "exercitation nostrud",
+      "cout": "action",
+      "description": "anim dolore fugiat consequat consequat ullamco cupidatat duis officia aute nostrud qui in nulla id eiusmod cillum quis et ea tempor ut ipsum duis duis eiusmod magna officia consectetur anim duis qui"
+    }
+  ],
+  "resume": "Laboris aute adipisicing veniam dolor reprehenderit laboris veniam culpa proident sit velit pariatur laborum."
+},
+{
+  "_id": "5394b11b-235c-43a7-9f35-8142216924aa",
+  "nom": {
+    "prenom": "Ella",
+    "nomfamille": "Monahan"
+  },
+  "dateAjout": "2024-09-01",
+  "niveauDefi": 19,
+  "vivant": true,
+  "pointVie": 45,
+  "pouvoirs": [
+    {
+      "nompouvoir": "nulla exercitation",
+      "cout": "10 minutes",
+      "description": "veniam cupidatat sit excepteur nulla voluptate quis Lorem occaecat"
+    },
+    {
+      "nompouvoir": "excepteur labore",
+      "cout": "action",
+      "description": "aliqua reprehenderit nisi nulla ex quis exercitation anim laboris sit amet ea dolore deserunt officia occaecat et amet excepteur in adipisicing officia excepteur"
+    },
+    {
+      "nompouvoir": "anim",
+      "cout": "10 minutes",
+      "description": "mollit cupidatat anim eu tempor quis ut consectetur"
+    }
+  ],
+  "resume": "Officia velit nostrud ex id sunt enim velit sunt mollit ut aliquip ullamco."
+},
+{
+  "_id": "484d2d38-3207-4829-bc28-9d09199cce07",
+  "nom": {
+    "prenom": "Adam",
+    "nomfamille": "Marquardt"
+  },
+  "dateAjout": "2024-03-11",
+  "niveauDefi": 7,
+  "vivant": true,
+  "pointVie": 21,
+  "pouvoirs": [
+    {
+      "nompouvoir": "ipsum aliqua consectetur",
+      "cout": "action",
+      "description": "ex minim magna duis eu ad nulla proident officia"
+    },
+    {
+      "nompouvoir": "ea labore",
+      "cout": "action",
+      "description": "exercitation et do proident culpa eiusmod quis magna excepteur laboris laboris commodo elit esse fugiat labore officia et consectetur"
+    },
+    {
+      "nompouvoir": "nulla voluptate",
+      "cout": "action bonus",
+      "description": "culpa id minim eu elit tempor esse non labore cupidatat adipisicing id ad veniam cillum ullamco labore Lorem labore do voluptate incididunt ea labore ipsum pariatur anim id ut ex id eu est et nisi dolore esse commodo sit irure aute veniam est aute amet"
+    }
+  ],
+  "resume": "Magna qui exercitation occaecat deserunt proident laborum velit ea incididunt ipsum exercitation. Non cupidatat tempor ipsum occaecat cupidatat irure id ullamco commodo fugiat ea laboris."
+},
+{
+  "_id": "a83ca210-976e-4001-aabc-a052bcc8b250",
+  "nom": {
+    "prenom": "Jonathon",
+    "nomfamille": "Kemmer"
+  },
+  "dateAjout": "2023-11-05",
+  "niveauDefi": 19,
+  "vivant": false,
+  "pointVie": 99,
+  "pouvoirs": [
+    {
+      "nompouvoir": "nostrud",
+      "cout": "action bonus",
+      "description": "qui"
+    },
+    {
+      "nompouvoir": "aliquip ea cupidatat",
+      "cout": "action bonus",
+      "description": "incididunt incididunt aliqua ipsum ut ex ipsum nisi ea reprehenderit esse fugiat occaecat consectetur aliquip cillum nostrud exercitation dolor consectetur tempor sit esse"
+    }
+  ],
+  "resume": "Magna reprehenderit labore sit duis ex adipisicing cupidatat reprehenderit cupidatat anim deserunt minim aliquip."
+},
+{
+  "_id": "41a41e15-4ff5-4c5e-800f-b869b13ed987",
+  "nom": {
+    "prenom": "Harold",
+    "nomfamille": "Medhurst"
+  },
+  "dateAjout": "2024-02-14",
+  "niveauDefi": 2,
+  "vivant": true,
+  "pointVie": 16,
+  "pouvoirs": [
+    {
+      "nompouvoir": "id incididunt ullamco",
+      "cout": "action",
+      "description": "ut est occaecat dolor esse ullamco est magna ad do adipisicing aliquip anim cillum irure cillum in nulla cillum non exercitation ut duis consequat voluptate ipsum velit aute ex elit excepteur enim deserunt aute do velit consequat est veniam sit elit"
+    },
+    {
+      "nompouvoir": "Lorem ex et",
+      "cout": "action bonus",
+      "description": "aliqua ullamco adipisicing enim culpa consequat aliquip sunt tempor elit veniam cillum aliquip excepteur irure sunt nisi mollit amet mollit do quis eiusmod tempor eiusmod ad et ullamco consectetur commodo Lorem eiusmod ea velit consequat eu incididunt nulla aliqua pariatur in deserunt"
+    }
+  ],
+  "resume": "Dolore laboris sit ipsum ipsum sit aliqua qui dolor amet."
+},
+{
+  "_id": "23c610a5-5c5a-40df-a5d8-e1f5ccd51566",
+  "nom": {
+    "prenom": "Kim",
+    "nomfamille": "Collier"
+  },
+  "dateAjout": "2023-12-31",
+  "niveauDefi": 19,
+  "vivant": true,
+  "pointVie": 27,
+  "pouvoirs": [
+    {
+      "nompouvoir": "ex",
+      "cout": "10 minutes",
+      "description": "qui ullamco consectetur amet culpa duis esse irure in dolore et incididunt officia pariatur anim aliqua consequat id in sit est laboris ullamco aliquip consectetur ad adipisicing Lorem duis labore deserunt minim tempor aliqua excepteur Lorem aliqua occaecat et nisi"
+    },
+    {
+      "nompouvoir": "proident qui irure",
+      "cout": "action",
+      "description": "aliquip Lorem aliqua excepteur aliquip sit fugiat minim dolore"
+    }
+  ],
+  "resume": "Voluptate irure ex velit commodo duis eiusmod et duis cillum velit consequat. In ea do labore ex incididunt ea reprehenderit ex aliquip eu ea."
+}])

@@ -59,3 +59,4 @@ Procédure de création de la base de données.
     Le script pnj.pnj.json dans le dossier dev est au format json. L'application utilise une base de données MongoDB (MongoDBCompass ou MongoDBAtlas). Il faut importer les données au format json dans une collection "pnj".
 
 URL de l’API publiée
+    https://devweb3-api.onrender.com
